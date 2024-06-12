@@ -2,6 +2,8 @@
 
 `my_rviz2_plugin` is a custom plugin for ROS2 RViz2. This plugin provides a panel to display signals.
 
+<img src="./image.png" width=100>
+
 ## Requirements
 
 - ROS2 Humble Hawksbill or later
