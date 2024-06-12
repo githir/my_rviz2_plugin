@@ -14,7 +14,7 @@
 
 Run the following commands to install the necessary dependencies:
 
-
+```
 bash
 sudo apt update
 sudo apt install -y \
@@ -22,13 +22,14 @@ ros-humble-rviz-common \
 ros-humble-rclcpp \
 ros-humble-std-msgs \
 qt5-default
-
+```
 
 
 ### Build the Package
 
 Create a workspace, clone the package, and build it:
 
+```
 bash
 mkdir -p ~/rviz2_plugin_ws/src
 cd ~/rviz2_plugin_ws/src
@@ -36,17 +37,17 @@ git clone https://github.com/yourusername/my_rviz2_plugin.git
 cd ~/rviz2_plugin_ws
 source /opt/ros/humble/setup.bash
 colcon build
-
-
+```
 
 ## Usage
 
 After the build is complete, you can launch RViz2 and use the plugin with the following commands:
 
+```
 bash
 source ~/rviz2_plugin_ws/install/setup.bash
 rviz2
-
+```
 
 
 Once RViz2 is running, go to the "Panels" menu on the left, select "Add New Panel", and add `my_rviz2_plugin/SignalPanel`.
