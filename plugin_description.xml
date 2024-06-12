@@ -1,0 +1,5 @@
+<library path="my_rviz2_plugin">
+  <class name="my_rviz2_plugin/SignalPanel" type="SignalPanel" base_class_type="rviz_common::Panel">
+    <description>My custom RViz2 plugin</description>
+  </class>
+</library>

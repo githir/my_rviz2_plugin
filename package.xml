@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>my_rviz2_plugin</name>
+  <version>0.0.0</version>
+  <description>The my_rviz2_plugin package</description>
+  <maintainer email="your_email@example.com">Your Name</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>ament_python</buildtool_depend>
+  <buildtool_depend>python_cmake_module</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>std_msgs</depend>
+  <depend>rviz_common</depend>
+  <depend>rviz_rendering</depend>
+  <depend>rviz_default_plugins</depend>
+  <depend>libqt5-widgets</depend>
+
+  <build_depend>qtbase5-dev</build_depend>
+  <exec_depend>qtbase5-dev</exec_depend>
+
+  <exec_depend>python3</exec_depend>
+  <exec_depend>python3-rclpy</exec_depend>
+  <exec_depend>python3-std_msgs</exec_depend>
+
+  <export>
+    <rviz_common plugin="${prefix}/plugin_description.xml"/>
+  </export>
+</package>
