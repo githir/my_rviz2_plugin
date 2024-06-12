@@ -26,5 +26,6 @@
 
   <export>
     <rviz_common plugin="${prefix}/plugin_description.xml"/>
+    <build_type>ament_cmake</build_type>
   </export>
 </package>
